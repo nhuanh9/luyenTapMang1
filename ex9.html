@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        let size = parseInt(prompt("Nhập vào số phần tử mảng 1:"));
+        let arr = [];
+
+        for (let i = 0; i < size; i++) {
+            arr.push(parseInt(prompt("Nhập vào phần tử thu" + (i + 1) + ":")));
+        }
+        let size1 = parseInt(prompt("Nhập vào số phần tử mảng 2:"));
+        let arr1 = [];
+
+        for (let i = 0; i < size1; i++) {
+            arr1.push(parseInt(prompt("Nhập vào phần tử thu" + (i + 1) + ":")));
+        }
+        let arr2 = arr.concat(arr1);
+        console.log(arr2);
+    </script>
+</body>
+</html>

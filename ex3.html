@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        let arr = [1,2,66,5,43,21,33,4,5,7];
+        let max = arr[0];
+        let avg = 0;
+        for (let i = 0; i < arr.length; i++){
+            if (max < arr[i]){
+                max = arr[i];
+            }
+            avg+= arr[i];
+        }
+        alert("Max: "+max+" và Avg: "+avg/arr.length);
+    </script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        let size = parseInt(prompt("Nhập vào số phần tử mảng:"));
+        let arr = [];
+
+        for (let i = 0; i < size; i++){
+           arr.push(parseInt(prompt("Nhập vào phần tử thu"+(i+1)+":")));
+        }
+        arr = arr.reverse();
+        for (let i = 0; i < size; i++){
+            document.write(arr[i]+" ");
+        };
+    </script>
+</body>
+</html>
